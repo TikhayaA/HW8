@@ -1,0 +1,10 @@
+nav {
+  width: 960px;
+}
+ul {
+  display: flex;
+  flex-direction: row;
+}
+li {
+  list-style: none;
+}
