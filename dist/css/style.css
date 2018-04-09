@@ -65,8 +65,76 @@ li:hover {
   border-radius: 5px;
   width: 75px;
   padding: 5px 0 ;
+  text-align: center;
 }
 .button-second {
   color: #666664;
   background: #fff;
+}
+.heading-block {
+  width: 960px;
+  margin: 0 auto;
+  padding: 5px 0;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  box-sizing: border-box;
+}
+.heading-block-first {
+  flex: 0 0 48%;
+}
+.heading-block-first p {
+  font-size: 14px;
+}
+.heading-block-first h1 {
+  margin: 0;
+}
+.heading-block-first .button {
+  width: 50px;
+}
+.heading-block-second {
+  flex: 0 0 48%;
+}
+.heading-block-second h2 {
+  margin: 0;
+}
+.heading-block-img {
+  width: 100%;
+}
+hr {
+  border: none;
+  height: 2px;
+  width: 960px;
+  margin: 0 auto;
+  margin-top: 10px;
+  background-color: #f5f5f5;
+}
+.wrap-icons-main {
+  width: 960px;
+  margin: 0 auto;
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.wrap-icons {
+  flex: 0 0 31%;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  box-sizing: border-box;
+}
+.icons-first {
+  color: #0000FF;
+  font-size: 25px;
+}
+.icons-second {
+  margin-left: 15px;
+  color: #2a1f19;
+  font-size: 14px;
+}
+.icons-second h4 {
+  margin: 0px;
 }
